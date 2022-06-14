@@ -21,6 +21,10 @@ app.use('/', home)
 const cats = require(path.join(__routes, '/cats.js'))
 app.use('/cats', cats)
 
+app.get('*', (req, res) => {
+    res.render(path.join(__dirname, '.', 'src/views/not_found.pug'))
+})
+
 // Call server.
 app.listen(3000, () => {
     console.log(`Server running on 'http://localhost:3000'.`)

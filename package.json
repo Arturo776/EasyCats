@@ -1,12 +1,12 @@
 {
-  "name": "twitchcats",
+  "name": "easycats",
   "version": "1.0.0",
-  "description": "TwitchCats",
+  "description": "EasyCats",
   "main": "app.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "Kiune",
+  "author": "Arturo B. Martín",
   "license": "ISC",
   "devDependencies": {
     "axios": "^0.27.1",
