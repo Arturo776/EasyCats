@@ -43,3 +43,7 @@ npm install nodemon --save-dev
 ## License
 
 [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.html)
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/arturobm-dev/)
